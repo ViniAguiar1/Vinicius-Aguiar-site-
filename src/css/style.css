@@ -74,3 +74,31 @@ nav a {
     color: black;
     justify-content: center;
 }
+@media (max-width: 768px){}
+@media (max-width: 425px){
+    .projeto1{
+        /* display: flex; */
+        width: 350px;
+        align-items: center;
+        justify-content: center;
+        display: block; /* torna a imagem um elemento de bloco para que a margem possa ser aplicada */
+      margin: 0 auto;
+    }
+    header img {
+		width: 100px;
+		height: 100px;
+	}
+
+	header h1 {
+		font-size: 24px;
+	}
+
+	header h2 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	nav li {
+		margin: 0 5px;
+	}
+}
