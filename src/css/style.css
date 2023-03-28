@@ -1,0 +1,76 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+	color: #333;
+}
+
+.container {
+	max-width: 800px;
+	margin: auto;
+	padding: 30px;
+}
+
+header {
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	text-align: center;
+}
+
+header img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+header h1 {
+	font-size: 36px;
+	margin: 0;
+}
+
+header h2 {
+	font-size: 24px;
+	margin: 0;
+	margin-bottom: 20px;
+	color: #999;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #333;
+	font-size: 18px;
+	text-decoration: none;
+}
+.projeto1{
+    /* display: flex; */
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+    display: block; /* torna a imagem um elemento de bloco para que a margem possa ser aplicada */
+  margin: 0 auto;
+}
+.container .p1 a{
+    text-decoration: none;
+}
+.titleProjeto{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
