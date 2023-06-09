@@ -144,19 +144,23 @@
     .conteiner #header{
         font-size: 20px;
     }
+    .conteiner #menu{
+        line-height: 1px;
+    }
    .conteiner #menu li {
         font-size: 12px;
         margin-bottom: 15px;
-        line-height: 5px;
-        height: auto;
+        line-height: 3px;
+        /* height: auto; */
     }
    .conteiner #headerCta{
         display: block;
     }
    .conteiner #headerCta h1{
         font-size: 18px;
-        line-height: 24px;
+        /* line-height: 24px; */
         margin-left: -15%;
+        align-items: center;
     }
     .conteiner #headerCta p.gray{
         font-size: 12px;
@@ -192,7 +196,7 @@
         line-height: 17px;
     }
     .conteiner .textCenter h3{
-        font-size: 15px;
+        font-size: 13px;
     }
     .conteiner .textCenter p.gray{
         font-size: 12px;
@@ -208,7 +212,7 @@
         display: flex;
     }
     .conteiner .contactText h1.black{
-        font-size: 14px;
+        font-size: 12px;
         line-height: 25px;
         margin-left: -50%;
         width: 120%;
@@ -217,7 +221,7 @@
         /* margin-right: -; */
     }
     .conteiner .contactText h2.red{
-        font-size: 12px;
+        font-size: 10px;
         display: flex;
         width: 120%;
         margin-left: -50%;
