@@ -1,0 +1,134 @@
+@media (max-width: 600px) {   
+    /* .conteiner{
+        flex-direction: column;
+        width: 100%;
+    }  */
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #header{
+        font-size: 24px;
+    }
+    #menu li {
+        display: block;
+        font-size: 14px;
+    }
+    #headerCta{
+        display: block;
+    }
+   .conteiner #headerCta h1{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    p.gray{
+        font-size: 14px;
+    }
+    .conteiner #headerImg img{
+        width: 115%;
+    }
+    .conteiner #btnCta{
+     padding: 5px 20px 5px 20px;
+     align-items: center;
+        font-size: 14px;
+    }
+    .conteiner #services h1.black{
+        line-height: 15px;
+        font-size: 24px;
+    }
+    .conteiner .textCenter img{
+        width: 25%;
+    }
+    .conteiner .textCenter{
+        margin-top: 15px;
+        line-height: 17px;
+    }
+    .conteiner .textCenter h3{
+        font-size: 18px;
+    }
+    .conteiner #contactImg img{
+        width: 100%;
+        height: 75%;
+        margin-left: -10%
+    }
+    #contact .conteiner .contactText{
+        /* margin-right: -45%; */
+        width: auto;
+        display: flex;
+    }
+    .conteiner .contactText h1.black{
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: -40%;
+    }
+    .conteiner .contactText h2.red{
+        font-size: 15px;
+        display: flex;
+        margin-left: -40%;
+    }
+    .conteiner .contactText p.gray{
+        font-size: 12px;
+        display: flex;
+        width: 120%;
+        margin-left: -40%;
+    }
+    #contact .contactText form input{
+        background-color: #f5f6fb;
+        border-radius: 50px;
+        font-family: Poppins;
+        font-size: 12px;
+        color: #575455;
+        border: 0;
+        width: 120%;
+        padding: 5px 15px 5px 15px;
+        margin-left: -40%;
+    }
+    #contact .contactText button[type="submit"]{
+        width: 75%;
+        height: 38px;
+        left: 813px;
+        top: 1662px;
+        background-color: #1f7cff;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        border-radius: 30px;
+        border: 0;
+        cursor: pointer;
+        font-weight: 600;
+        line-height: 24px;
+        box-shadow: 0px 6px 4px 3px #0c70f240;
+    }
+    #contact .contactText button[type="submit"]:hover{
+        transition: transform 0.8s;
+        transform: translateY(-8px);
+        background-color: #174d99;
+    }
+    #portfolioImg{
+        margin-top: 35px;
+        margin-bottom: 30px;
+        display: grid;
+        flex-direction: column;
+        grid-auto-columns: auto;
+    }
+    #redes #headerRedeText{
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 18px;
+        margin-left: -17%;
+        /* padding-right: 15px; */
+        text-align: center;
+    }
+    #redes .redesImg{
+        width: 25px;
+        align-items: center;
+        margin-left: 30%;
+    }
+    #redes .redesImg2{
+        align-items: center;
+        width: 25px;
+        margin-left: 30%;
+    }
+}
