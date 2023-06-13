@@ -51,7 +51,7 @@ a{
 }
 p.gray{
     font-family: Poppins;
-    font-style: 16px;
+    font-style: 18px;
     font-style: normal;
     color: #575455;
 }
@@ -85,4 +85,36 @@ p.gray{
     font-size: 18px;
     font-style: normal;
     width: 75%;
+}
+.conteiner #skills li{
+    font-family: Poppins;
+    list-style:disc;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+#contact{
+    line-height: 20px;
+}
+ #redes{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.redesText{
+    text-align: center;
+    font-family: Poppins;
+}
+.redesImg{
+    text-align: center;
+    width: 35px;
+    height: 35px;
+}
+.redesImg2 img{
+    text-align: center;
+    width: 45px;
+    height: 45px;
+}
+#redes img:hover{
+    transition: transform 0.8s;
+    transform: translateY(-8px);
 }
