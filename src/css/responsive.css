@@ -16,7 +16,7 @@
     }
     .conteiner #headerCta p.gray{
         font-size: 12px;
-        width: 100%;
+        width: 120%;
         margin-left: -15%;
     }
     .conteiner #btnCta{
@@ -25,8 +25,8 @@
         font-size: 12px;
     }
     #headerImg img{
-        margin-left: -35%;
-        width: 180%;
+        margin-left: -25%;
+        width: 150%;
         /* height: 100%; */
     }
     .conteiner #about-me{
