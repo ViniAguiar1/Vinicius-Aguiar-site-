@@ -293,13 +293,20 @@
         /* align-items: center; */
     }
     #redes .redesImg{
-        width: 25px;
+        width: 35px;
         align-items: center;
         margin-left: 30%;
     }
     #redes .redesImg2{
         align-items: center;
-        width: 25px;
+        width: 35px;
         margin-left: 30%;
+    }
+    #contact1 h1.black{
+        font-size: 18px;
+    }
+    #contact1 p.gray{
+        font-size: 14px;
+        width: 90%;
     }
 }
