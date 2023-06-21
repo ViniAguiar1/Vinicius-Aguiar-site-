@@ -25,8 +25,8 @@
         font-size: 12px;
     }
     #headerImg img{
-        /* margin-left: -15%; */
-        width: 150%;
+        margin-left: -15%;
+        width: 155%;
         height: 80%;
     }
     .conteiner #about-me{
