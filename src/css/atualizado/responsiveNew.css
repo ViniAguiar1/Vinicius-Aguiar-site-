@@ -124,12 +124,12 @@
     #redes .redesImg{
         width: 25px;
         align-items: center;
-        margin-left: 30%;
+        /* margin-left: 30%; */
     }
     #redes .redesImg2{
         align-items: center;
         width: 25px;
-        margin-left: 30%;
+        /* margin-left: 30%; */
     }
 }
 @media (max-width: 425px) {   
