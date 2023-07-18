@@ -1,0 +1,360 @@
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+nav {
+  margin: 10px 80px;
+}
+nav #header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  text-decoration: underline;
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+nav #menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav #menu {
+  text-align: right;
+  margin-top: 49px;
+}
+nav #menu li {
+  display: inline-block;
+  margin-left: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#headerCta h1 {
+  font-family: Sora, cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 150%;
+}
+
+p.gray {
+  font-family: Sora, cursive;
+  font-style: 18px;
+  font-style: normal;
+  color: #fff;
+  line-height: 150%;
+  width: 85%;
+  margin-top: 15px;
+}
+
+.button-contact {
+  background-color: #F75C4E;
+  font-family: Poppins;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  padding: 10px 25px 10px 25px;
+}
+
+.button-contact:hover {
+  animation: scaleButton 0.8s alternate infinite;
+}
+
+@keyframes scaleButton {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+.conteiner #headerImg img {
+  width: 90%;
+  border-radius: 30%;
+  height: 65%;
+}
+
+@media screen and (max-width: 768px) {
+  #headerCta h1 {
+    line-height: 120%;
+    font-size: 24px;
+    width: 90%;
+    font-family: Sora, cursive;
+  }
+  #headerCta p {
+    margin-top: 15px;
+    line-height: 150%;
+    font-size: 16px;
+    width: 85%;
+  }
+  #headerCta .button-contact {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .conteiner #headerImg img {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 425px) {
+  #menu {
+    display: none;
+  }
+  #header {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .header-geral {
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+  }
+  .header-geral #headerCta {
+    margin-bottom: 20px;
+  }
+  .header-geral #headerCta h1 {
+    width: 110%;
+    font-size: 18px;
+    line-height: 140%;
+  }
+  .header-geral #headerCta p {
+    font-size: 14px;
+    width: 100%;
+    line-height: 140%;
+  }
+  .header-geral #headerCta a {
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 0px;
+  }
+  .header-geral #headerImg img {
+    width: 40%;
+    border-radius: 100%;
+    margin-left: 60%;
+    margin-bottom: 15px;
+    display: flex;
+    margin-top: -155px;
+  }
+}
+#formacao {
+  margin-top: -130px;
+  background-color: #fff;
+  color: #06090c;
+  height: 800px;
+}
+#formacao .container {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 20px;
+}
+#formacao a {
+  text-decoration: none;
+  color: #06121e;
+}
+
+#allCourses h1 {
+  font-family: Poppins;
+  font-size: 30px;
+}
+
+.education {
+  font-family: Poppins;
+  margin-bottom: 35px;
+  line-height: 25px;
+}
+
+.titleCourse {
+  font-size: 18px;
+}
+
+.descriptionCourse {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  #formacao {
+    margin-top: -50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  #formacao {
+    margin-top: 0;
+  }
+  #formacao #allCourses h1 {
+    font-size: 18px;
+    width: 200%;
+  }
+  #formacao #allCourses .education .titleCourse {
+    font-size: 14px;
+  }
+  #formacao #allCourses .education .descriptionCourse {
+    font-size: 12px;
+  }
+  #formacao #allCourses .education span {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #formacao #allCourses h1 {
+    font-size: 16px;
+    width: 110%;
+  }
+}
+.portfolio {
+  background-color: #fff;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+#portfolioTitle h2 {
+  font-family: "Sora", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #F75C4E;
+}
+
+#portfolioTitle h1 {
+  font-family: Sora, cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #161617;
+}
+
+.haircuts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 0 44px 34px 44px;
+  background-color: #fff;
+  color: #040f1a;
+}
+
+.haircut {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  min-height: 380px;
+}
+.haircut img {
+  max-width: 100%;
+  transition: transform 0.25s;
+}
+
+.haircut img:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.haircut-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 14px;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.haircut-info button {
+  color: #fff;
+  background-color: #d94140;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 0;
+  cursor: default;
+  text-transform: uppercase;
+  align-items: center;
+}
+.haircut-info button a {
+  color: #edeaef;
+}
+
+.haircut-info .button-project {
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .haircuts {
+    flex-direction: column;
+    min-height: auto;
+  }
+  .haircut img {
+    max-width: 740px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .haircut {
+    min-height: auto;
+  }
+}
+@media screen and (max-width: 375px) {
+  .portfolio {
+    padding-top: 40px;
+  }
+  .haircut {
+    min-height: auto;
+  }
+}
+body {
+  font-family: "Sora", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: #06121e;
+  color: #fff;
+}
+
+button {
+  font-family: "Sora", sans-serif;
+  cursor: pointer;
+}
+
+svg {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

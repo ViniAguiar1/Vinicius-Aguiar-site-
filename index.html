@@ -7,87 +7,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./src/css/atualizado/responsiveNew.css">
-    <link rel="stylesheet" href="./src/css/atualizado/att.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <link rel="stylesheet" href="./src/css/atualizado/responsiveNew.css">
+    <link rel="stylesheet" href="./src/css/atualizado/att.css"> -->
     <title>Vinicius Aguiar</title>
 </head>
 <body>
-    <div class="conteiner">
-        <div id="header">
-            Portfólio
-        </div>
-        <div id="menu">
-            <ul>
-                <li><a href="#services">Meus serviços</a></li>
-                <li><a href="#contact">Contato</a></li>
-                <li><a href="#portfolioTitle">Portfólio</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="conteiner">
+    <nav>
+        <div class="conteiner">
+            <div id="header" data-aos="fade-down">
+                Portfólio
+            </div>
+            <div id="menu" data-aos="fade-down">
+                <ul>
+                    <li><a href="#services">Meus serviços</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#portfolioTitle">Portfólio</a></li>
+                </ul>
+            </div>
+        </div>    
+    </nav>
+    <div class="conteiner header-geral">
         <div id="headerCta">
-        <h1>
-            Olá meu nome <br>
-            é Vinicius
+        <h1 data-aos="fade-right" data-aos-delay="500">
+            Vinicius, 20 <br>
+            Desenvolvedor Front-End
         </h1>
-        <p class="gray">
+        <p class="gray" data-aos="fade-right" data-aos-delay="700">
             Sou Desenvolvedor Web Junior, e gostaria de apresentar meu trabalho e um pouco mais sobre mim, através deste portfólio.
-        </p>
-        <a id="btnCta" href="aboutMe.html">Sobre mim</a>
+        </p> <br>
+        <a class="button-contact" href="https://www.linkedin.com/in/viniciusaguiar-araujo/" target="_blank" data-aos="fade-up-right" data-aos-delay="700">Linkedin</a>
+        <a class="button-contact" href="https://github.com/ViniAguiar1" target="_blank" data-aos="fade-up-right" data-aos-delay="700">Github</a>
+        <a class="button-contact" href="https://www.instagram.com/viniaguiardev/" target="_blank" data-aos="fade-up-right" data-aos-delay="700">Instagram</a>
         </div>
-        <div id="headerImg">
+        <div id="headerImg" data-aos="flip-up" data-aos-delay="600">
             <img src="./src/img/imagens/hb2.jpg" alt="vinicius Aguiar">
         </div>
     </div>
-    <!-- <div class="conteiner" id="redes">
-        <div id="headerRedeText">
-           Clique nas imagens <br>
-           e acesse minhas redes
-        </div>
-        <div class="redesImg">
-            <a href="https://www.linkedin.com/in/viniciusaguiar-araujo/" target="_blank"><img src="./src/img/imagens/linkedin-in.svg" alt="">
-            </a>
-        </div>
-        <div class="redesImg2">
-            <a href="https://github.com/ViniAguiar1" target="_blank">
-                <img src="./src/img/redes/github.svg" alt="">
-            </a>
-        </div>
-        <div class="redesImg2">
-            <a href="https://www.instagram.com/viniaguiardev/" target="_blank">
-                <img src="./src/img/redes/insta.svg" alt="">
-            </a>
-        </div>
-    </div> -->
-    <div class="conteiner textCenter">
-        <div id="services">
-            <h2 class="red">Conheça</h2>
-            <h1 class="black">Meus serviços</h1>
-            <p>
-                Vou ajudar a sua empresa a <br>
-                alcançar grandes resultados.
-            </p>
-        </div>
-    </div>
-    <div class="conteiner" id="services">
-        <div class="textCenter">
-            <img src="./src/img/icons/email.svg" alt=""> <h3>Email Marketing</h3>
-            <p class="gray">
-                Gerenciar campanhas é <br> difícil.
-                Conte comigo para te ajudar.
-            </p>
-        </div>
-        <div class="textCenter">
-            <img src="./src/img/icons/sites.svg" alt="Sites"> <h3>Criação de Sites</h3> <p class="gray">
-                Desenvolvo seu site inteiro 
-                do zero <br> e te entrego prontinho.
-            </p>
-        </div>
-    </div>
-    <div class="conteiner" id="contact">
-        <div id="contactImg">
-            <img src="./src/img/imagens/perfilInsta.jpg" alt="Developer">
-        </div>
+    <!-- <div class="conteiner" id="contact">
         <div class="contactText">
             <h2 class="red">Economize seu tempo</h2>
             <h1 class="black">Expanda seu negócio</h1>
@@ -102,36 +64,114 @@
             <button type="submit">Enviar</button>
             </form>
         </div>
-    </div>
-    <div id="portfolioTitle" class="conteiner">
-        <div class="portText">
-            <h2 class="red">Conheça meu trabalho</h2>
-            <h1 class="black">Portfólio</h1>
+    </div> -->
+    <!--FORMAÇÃO-->
+    <section id="formacao" data-aos="zoom-in-up" data-aos-delay="150">
+        <div class="container" id="allCourses">
+            <h1>Educação (Cursos complementares)</h1><br>
+            <ul class="education">
+                <li>
+                    <h4 class="titleCourse">Universidade Nove de Julho</h4>
+                    <h5 class="descriptionCourse">Tecnologia em Análise e Desenvolvimento de Sistemas</h5>
+                    <span>02/2021 até  07/2023</span>
+                </li><br>
+                <li>
+                    <h4 class="titleCourse">CNA - Escola de Idiomas</h4>
+                    <h5>CNA - Gold 2</h5>
+                    <span>08/2019 até (Atualmente)</span>
+                </li><br>
+                <li>
+                    <h4 class="titleCourse">OneBitCode</h4>
+                    <h5>Curso JavaScript FullStack</h5>
+                     <span>03/2023 até (Atualmente)</span>
+               </li><br>
+                <li>
+                    <h4 class="titleCourse">Udemy - Ministrado por <a href="https://www.udemy.com/user/luiz-otavio-miranda/?src=sac&kw=luiz" target="_blank">Luiz Otavio Miranda</a></h4>
+                    <h5>Curso de JavaScript e TypeScript (do básico ao avançado)</h5>
+                   <span>11/2022 até (Atualmente)</span>
+               </li><br>
+                <li>
+                    <h4 class="titleCourse">Udemy - Ministrado por <a href="https://www.udemy.com/user/matheus-battisti/?src=sac&kw=Math" target="_blank">Matheus Battist</a></h4>
+                    <h5>Git e GitHub</h5>
+                   <span>12/2022 - 04/2023</span>
+               </li><br>
+                <li>
+                    <h4 class="titleCourse">Udemy - Ministrado por <a href="https://www.udemy.com/course/inglesextremo/" target="_blank">Inglês ao Extremo</a></h4>
+                    <h5>Inglês Extremo</h5>
+                   <span>12/2022 - 04/2023</span>
+               </li><br>
+                <li>
+                    <h4 class="titleCourse"><a href="https://ed.escoladnc.com.br/formacao-dados-g/?utm_source=adwords&utm_medium=ppc&utm_campaign=&utm_content=hr-ga-dado-194-7-1&utm_term=dnc%20group&utm_campaign=%5B194%5D%5BOP%5D%5BHR%5D%5BDados%5D&utm_source=adwords&utm_medium=ppc&hsa_acc=1620955800&hsa_cam=19602636121&hsa_grp=150705019612&hsa_ad=645959984053&hsa_src=g&hsa_tgt=kwd-314237788520&hsa_kw=dnc%20group&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwla-hBhD7ARIsAM9tQKszyxBLNaFumYcRacNsPOzdhhihXzRxzUHmT0utOBp-2w48z9g-5vkaAuNdEALw_wcB">Escola DNC</a></h4>
+                    <h5>Imersão em Tecnologia (Front-End)</h5>
+                </li><br>
+            </ul>
         </div>
-    </div>
-    <div id="portfolioImg" class="conteiner">
-        <div class="project">
-            <img src="./src/img/projetos/fashion-hair.png" alt="Rachel Fashion Hair">
+    </section> 
+
+    <!--PORTFOLIO-->
+    <section class="portfolio">
+        <div id="portfolioTitle" class="conteiner">
+             <div class="portText">
+                 <h2 class="red">Conheça meu trabalho</h2>
+                 <h1 class="black">Portfólio</h1>
+             </div>
+         </div>
+    </section>
+    <section class="haircuts">
+        <div class="haircut" data-aos="fade-up" data-aos-delay="200">
+            <img src="./src/img/Captura de tela 2023-07-17 204752.png" alt="Dev Barber">
+            <div class="haircut-info">
+                <strong>Dev Barber</strong>
+                <p>
+                    Projeto realizado junto com o "Sujeito Programador" utiizando HTML, CSS, e SASS.
+                </p>
+                <div class="button-project">
+                    <button>
+                        <a href="https://github.com/ViniAguiar1/dev-barber" target="_blank">ver repositório</a>
+                    </button>
+                    <button>
+                        <a href="https://viniaguiar1.github.io/dev-barber/" target="_blank">Ver DEMO</a>
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="project">
-            <img src="./src/img/projetos/projeto1.png" alt="The Last of Us">
+        <div class="haircut" data-aos="fade-up" data-aos-delay="350">
+            <img src="./src/img/projetos/Captura de tela 2023-07-18 134754.png" alt="Procurador de País">
+            <div class="haircut-info">
+                <strong>Procurador de País</strong>
+                <p>
+                   Procurado de países, desenvolvido com HTML, BootStrap, JavaScript e também utilizei a API REST Countries 
+                </p>
+                <div class="button-project">
+                    <button>
+                        <a href="https://github.com/ViniAguiar1/api-procurar-paises" target="_blank">ver repositório</a>
+                    </button>
+                    <button>
+                        <a href="https://viniaguiar1.github.io/api-procurar-paises/" target="_blank">Ver DEMO</a>
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="project">
-            <img src="./src/img/projetos/tech-pro-solutions.png" alt="TechPro Solutions">
+        <div class="haircut" data-aos="fade-up" data-aos-delay="500">
+            <img src="./src/img/projetos/Captura de tela 2023-07-18 133642.png" alt="Landing Page - The last of Us">
+            <div class="haircut-info">
+                <strong>Landing Page - The Last of Us</strong>
+                <p>
+                    Projeto realizado junto com os irmãos do canal "Dev em Dobro", no projeto foi utilizado HTML5, CSS3, e JavaScript.
+                </p> 
+                <div class="button-project">
+                    <button>
+                        <a href="https://github.com/ViniAguiar1/projeto-the-last-of-us" target="_blank">ver repositório</a>
+                    </button>
+                    <button>
+                        <a href="https://viniaguiar1.github.io/projeto-the-last-of-us/" target="_blank">Ver DEMO</a>
+                    </button>
+                </div>
+            </div>
         </div>
-    </div>
-    <div id="portfolioImg" class="conteiner">
-        <div class="project">
-            <img src="./src/img/projetos/landing-page-dnc.png" alt="Landing Page DNC">
-        </div>
-        <div class="project">
-            <img src="./src/img/projetos/site-caio.png" alt="Site Caio Cesena">
-        </div>
-        <div class="project">
-            <img src="./src/img/projetos/ichat-student.png" alt="iChat Student">
-        </div>
-    </div>
-    <div class="conteiner" id="contact1">
+    </section>
+</section>
+    <!-- <div class="conteiner" id="contact1">
         <div>
             <h1 class="black">Contatos</h1>
             <p class="gray">
@@ -139,12 +179,12 @@
             </p>
         </div>
     </div>
-    <div class="conteiner" id="redes">
+    <div class="conteiner" id="redes"> -->
         <!-- <div id="headerRedeText">
            Clique nos icons <br>
            e acesse minhas redes
         </div> -->
-        <div class="redesImg">
+        <!-- <div class="redesImg">
             <a href="https://www.linkedin.com/in/viniciusaguiar-araujo/" target="_blank"><img src="./src/img/imagens/linkedin-in.svg" alt="">
             </a>
         </div>
@@ -163,6 +203,7 @@
                 <img src="./src/img/redes/whats.svg" alt="WhatsApp">
             </a>
         </div>
-    </div>
+    </div>  -->
+    <script src="./src/js/script.js"></script>
 </body>
 </html>
