@@ -17,6 +17,11 @@ body{
     // margin-right: 10%;
     background-color: $primary-normal;
     color: $white-normal;
+    
+}
+::selection{
+    background-color: $black-light;
+    color: $red-normal;
 }
 button{
     font-family: 'Sora', sans-serif;
