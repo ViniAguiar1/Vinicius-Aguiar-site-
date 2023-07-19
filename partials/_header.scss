@@ -42,6 +42,7 @@ nav{
     a{
         color: $white-normal;
         text-decoration: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 }
 #headerCta h1{
@@ -71,9 +72,11 @@ p.gray{
     text-align: center;
      color: $white-normal;
      padding: 10px 25px 10px 25px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .button-contact:hover{
     animation: scaleButton 0.8s alternate infinite;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 @keyframes scaleButton{
     from{
@@ -87,6 +90,7 @@ p.gray{
     width: 90%;
     border-radius: 30%;
     height: 65%;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 @media screen and (max-width: 768px) {
     #headerCta {
@@ -156,6 +160,7 @@ p.gray{
                 text-align: center;
                 margin-top: 10px;
                 padding: 5px 0px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             }
         }
 
@@ -168,6 +173,7 @@ p.gray{
                 margin-bottom: 15px;
                 display: flex;
                 margin-top: -155px;
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
             }
         }
     }
