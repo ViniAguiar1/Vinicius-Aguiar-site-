@@ -339,6 +339,130 @@ p.gray {
     min-height: auto;
   }
 }
+#habilidades {
+  background-color: #fff;
+  color: #161617;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.black {
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.conteiner #skills-list li {
+  font-family: "Sora", cursive;
+  list-style: disc;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contactText h2 {
+  font-family: "Sora", cursive;
+  margin-bottom: 5px;
+}
+.contactText h1 {
+  font-family: "Sora", cursive;
+  margin-bottom: 5px;
+}
+.contactText p {
+  font-family: "Sora", cursive;
+  margin-bottom: 5px;
+}
+
+#contact .contactText input {
+  background-color: #fefaff;
+  border-radius: 50px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 24px;
+  color: #575455;
+  border: 0;
+  width: 60%;
+  padding: 15px 30px 15px 30px;
+  margin-bottom: 10px;
+}
+
+#contact .contactText button {
+  width: 45%;
+  height: 48px;
+  background-color: #1f7cff;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 24px;
+  box-shadow: 0px 6px 4px 3px rgba(12, 112, 242, 0.2509803922);
+  margin-bottom: 25px;
+}
+
+#contact .contactText button:hover {
+  transition: transform 0.8s;
+  transform: translateY(-8px);
+  background-color: #174d99;
+}
+
+@media screen and (max-width: 768px) {
+  #contact .contactText button {
+    margin-left: 7%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .contactText h2 {
+    font-size: 16px;
+  }
+  .contactText h1 {
+    font-size: 18px;
+  }
+  .contactText p.p {
+    width: 110%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  #contact .contactText input {
+    width: 90%;
+    margin-left: 5%;
+  }
+  #contact .contactText button {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .contactText h2 {
+    font-size: 16px;
+  }
+  .contactText h1 {
+    font-size: 18px;
+  }
+  .contactText p.p {
+    width: 110%;
+    margin-bottom: 7px;
+    font-size: 14px;
+  }
+  #contact .contactText input {
+    width: 100%;
+  }
+  #contact .contactText button {
+    margin-left: 25%;
+  }
+}
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
