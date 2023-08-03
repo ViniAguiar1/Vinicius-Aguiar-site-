@@ -418,6 +418,15 @@ p.gray {
   background-color: #174d99;
 }
 
+footer #direitos {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin-top: 5px;
+  padding-bottom: 15px;
+  justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
   #contact .contactText button {
     margin-left: 7%;
@@ -443,6 +452,9 @@ p.gray {
   #contact .contactText button {
     margin-left: 25%;
   }
+  footer #direitos {
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 375px) {
   .contactText h2 {
@@ -457,10 +469,15 @@ p.gray {
     font-size: 14px;
   }
   #contact .contactText input {
-    width: 100%;
+    width: 90%;
   }
   #contact .contactText button {
     margin-left: 25%;
+  }
+  footer #direitos {
+    font-size: 10px;
+    justify-content: center;
+    display: flex;
   }
 }
 body {
