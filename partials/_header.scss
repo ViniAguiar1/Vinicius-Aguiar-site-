@@ -1,4 +1,4 @@
-.conteiner{
+.container1{
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
@@ -9,7 +9,7 @@ nav{
     // display: flex;
     margin: 10px 80px;
     #header{
-        font-family: Poppins;
+        font-family: Poppins, Arial, Helvetica, sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 28px;
@@ -31,7 +31,7 @@ nav{
     #menu li{
         display: inline-block;
         margin-left: 20px;
-        font-family: Poppins;
+        font-family: Poppins, Arial, Helvetica, sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -46,14 +46,14 @@ nav{
     }
 }
 #headerCta h1{
-    font-family: Sora, cursive;
+    font-family: Sora, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
     line-height: 150%;
 }
 p.gray{
-    font-family: Sora, cursive;
+    font-family: Sora, Arial, Helvetica, sans-serif;
     font-style: 18px;
     font-style: normal;
     color: $white-normal;
@@ -73,6 +73,7 @@ p.gray{
      color: $white-normal;
      padding: 10px 25px 10px 25px;
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     margin-right: 5px;
 }
 .button-contact:hover{
     animation: scaleButton 0.8s alternate infinite;
@@ -86,7 +87,7 @@ p.gray{
         transform: scale(1.10);
     }
 } 
-.conteiner #headerImg img{
+.container1 #headerImg img{
     width: 90%;
     border-radius: 30%;
     height: 65%;
@@ -98,7 +99,7 @@ p.gray{
             line-height: 120%;
             font-size: 24px;
             width: 90%;
-            font-family: Sora, cursive;
+            font-family: Sora, Arial, Helvetica, sans-serif;
         }
         p{
             margin-top: 15px;
@@ -112,7 +113,7 @@ p.gray{
             font-size: 12px;
         }
     }
-    .conteiner #headerImg{
+    .container1 #headerImg{
         img{
             width: 90%;
             // height: 50px;
